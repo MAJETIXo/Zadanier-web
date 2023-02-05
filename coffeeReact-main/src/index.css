@@ -1,0 +1,54 @@
+h2 {
+	text-align: center;
+}
+ .ingtrue {
+	border: none;
+    background-color: rgba(179, 130, 41, 0.925);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+ }
+ .ingfalse {
+	border: none;
+    background-color: beige;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+ }
+ 
+ .ingfalse:hover {background: rgba(207, 127, 34, 0.788);}
+ .ingfalse:active {background-color: rgb(97, 68, 5);}
+ .card {
+	width: 300px;
+	height: 300px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+ }
+ .txt{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    font-size: 120%;
+ }
+ 
+ .cimg {
+	width: 100%;
+
+ }
+ body {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    height: 100vh;
+    background: #f6dc96;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(down, #f0d997, #a0691d);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(down, #f0d997, #a0691d);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
